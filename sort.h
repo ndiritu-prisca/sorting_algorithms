@@ -34,4 +34,7 @@ void quick_swap(int *x, int *y);
 void quick_sort_recursion(int *array, int min, int max, size_t size);
 int partition(int *array, int min, int max, size_t size);
 
+void shell_sort(int *array, size_t size);
+void shell_swap(int *x, int *y);
+
 #endif /*SORT_H*/
