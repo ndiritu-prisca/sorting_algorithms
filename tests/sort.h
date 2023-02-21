@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -38,10 +38,7 @@ void shell_sort(int *array, size_t size);
 void shell_swap(int *x, int *y);
 
 void cocktail_sort_list(listint_t **list);
-void forward_swap(listint_t **list, listint_t **node);
-void backward_swap(listint_t **list, listint_t **node);
-
-void counting_sort(int *array, size_t size);
-int find_max(int *array, size_t size);
+void forward_swap(listint_t **list, listint_t *n1, listint_t *n2);
+void backward_swap(listint_t **list, listint_t *n1, listint_t *n2);
 
 #endif /*SORT_H*/
