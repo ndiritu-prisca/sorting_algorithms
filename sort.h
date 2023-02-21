@@ -55,5 +55,9 @@ int find_max(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void merge_compare(int *array, size_t start, size_t stop, int *new);
 void merge_sort_recursive(int *array, size_t start, size_t stop, int *new);
+/*104-heap_sort.c*/
+void heap_sort(int *array, size_t size);
+void heapify(int *array, size_t size, size_t base, size_t i);
+void heap_swap(int *x, int *y);
 
 #endif /*SORT_H*/
